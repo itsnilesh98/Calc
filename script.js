@@ -18,7 +18,7 @@ function setOperation(operation) {
   previousOperand = currentOperand;
   currentOperand = "";
 }
-
+//Calculation
 function calculate() {
   let result;
   const prev = parseFloat(previousOperand);
